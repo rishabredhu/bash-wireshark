@@ -1,0 +1,1227 @@
+=== Analysis for wireshark_ip_lab_output/trace_56.pcap ===
+Q1. Source IP address:
+Q2. IP Protocol Number (ICMP=1):
+1
+Q3. IP Header Analysis:
+Q4. Fragmentation Analysis:
+Detailed packet analysis:
+23:37:45.721153 IP6 (flowlabel 0x30700, hlim 64, next-header UDP (17) payload length: 36) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56470 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 16987+ A? google.com. (28)
+23:37:45.747899 IP6 (hlim 57, next-header UDP (17) payload length: 52) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56470: [udp sum ok] 16987 q: A? google.com. 1/0/0 google.com. [2m50s] A 142.250.65.174 (44)
+23:37:45.748822 IP (tos 0x0, ttl 1, id 41510, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33435: [udp sum ok] UDP, length 28
+23:37:45.750547 IP (tos 0xc0, ttl 64, id 23491, offset 0, flags [none], proto ICMP (1), length 84)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x0, ttl 1, id 41510, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33435: [udp sum ok] UDP, length 28
+23:37:45.750992 IP6 (flowlabel 0xb0c00, hlim 64, next-header UDP (17) payload length: 50) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49771 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 62091+ PTR? 1.1.168.192.in-addr.arpa. (42)
+23:37:45.768487 IP6 (hlim 57, next-header UDP (17) payload length: 127) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49771: [udp sum ok] 62091 NXDomain q: PTR? 1.1.168.192.in-addr.arpa. 0/1/0 ns: 168.192.in-addr.arpa. [30s] SOA prisoner.iana.org. hostmaster.root-servers.org. 1 604800 60 604800 604800 (119)
+23:37:45.769623 IP (tos 0x0, ttl 1, id 41511, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33436: [udp sum ok] UDP, length 28
+23:37:45.771007 IP (tos 0xc0, ttl 64, id 23492, offset 0, flags [none], proto ICMP (1), length 84)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x0, ttl 1, id 41511, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33436: [udp sum ok] UDP, length 28
+23:37:45.771066 IP (tos 0x0, ttl 1, id 41512, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33437: [udp sum ok] UDP, length 28
+23:37:45.772370 IP (tos 0xc0, ttl 64, id 23493, offset 0, flags [none], proto ICMP (1), length 84)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x0, ttl 1, id 41512, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33437: [udp sum ok] UDP, length 28
+23:37:45.772414 IP (tos 0x0, ttl 2, id 41513, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33438: [udp sum ok] UDP, length 28
+23:37:45.789698 IP (tos 0xc0, ttl 63, id 11876, offset 0, flags [none], proto ICMP (1), length 84)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x0, ttl 1, id 41513, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33438: [udp sum ok] UDP, length 28
+23:37:45.790281 IP6 (flowlabel 0x40d00, hlim 64, next-header UDP (17) payload length: 48) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.52522 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 52702+ PTR? 1.0.71.74.in-addr.arpa. (40)
+23:37:45.807938 IP6 (hlim 57, next-header UDP (17) payload length: 98) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.52522: [udp sum ok] 52702 q: PTR? 1.0.71.74.in-addr.arpa. 1/0/0 1.0.71.74.in-addr.arpa. [23h13m24s] PTR syn-074-071-000-001.res.spectrum.com. (90)
+23:37:45.808249 IP (tos 0x0, ttl 2, id 41514, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33439: [udp sum ok] UDP, length 28
+23:37:45.824638 IP (tos 0xc0, ttl 63, id 11877, offset 0, flags [none], proto ICMP (1), length 84)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x0, ttl 1, id 41514, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33439: [udp sum ok] UDP, length 28
+23:37:45.824717 IP (tos 0x0, ttl 2, id 41515, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33440: [udp sum ok] UDP, length 28
+23:37:45.844254 IP (tos 0xc0, ttl 63, id 11878, offset 0, flags [none], proto ICMP (1), length 84)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x0, ttl 1, id 41515, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33440: [udp sum ok] UDP, length 28
+23:37:45.844445 IP (tos 0x0, ttl 3, id 41516, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33441: [udp sum ok] UDP, length 28
+23:37:46.023045 IP (tos 0x0, ttl 253, id 2568, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41516, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33441: [udp sum ok] UDP, length 28
+23:37:46.023661 IP6 (flowlabel 0xa0000, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.58432 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 36154+ PTR? 162.202.173.68.in-addr.arpa. (45)
+23:37:46.045988 IP6 (hlim 57, next-header UDP (17) payload length: 104) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.58432: [udp sum ok] 36154 q: PTR? 162.202.173.68.in-addr.arpa. 1/0/0 162.202.173.68.in-addr.arpa. [3h44m35s] PTR lag-61.nymanyfo02h.netops.charter.com. (96)
+23:37:46.046253 IP (tos 0x0, ttl 3, id 41517, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33442: [udp sum ok] UDP, length 28
+23:37:46.057738 IP (tos 0x0, ttl 253, id 2578, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41517, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33442: [udp sum ok] UDP, length 28
+23:37:46.057807 IP (tos 0x0, ttl 3, id 41518, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33443: [udp sum ok] UDP, length 28
+23:37:46.117419 IP (tos 0x0, ttl 253, id 2579, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41518, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33443: [udp sum ok] UDP, length 28
+23:37:46.117595 IP (tos 0x0, ttl 4, id 41519, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33444: [udp sum ok] UDP, length 28
+23:37:46.308993 IP (tos 0x0, ttl 252, id 5969, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41519, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33444: [udp sum ok] UDP, length 28
+23:37:46.309764 IP6 (flowlabel 0x10500, hlim 64, next-header UDP (17) payload length: 52) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.51707 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 47423+ PTR? 66.198.173.68.in-addr.arpa. (44)
+23:37:46.332161 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 399) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:46.332738 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 394) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:46.338373 IP6 (hlim 57, next-header UDP (17) payload length: 104) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.51707: [udp sum ok] 47423 q: PTR? 66.198.173.68.in-addr.arpa. 1/0/0 66.198.173.68.in-addr.arpa. [3h11m17s] PTR lag-115.nyquny9101r.netops.charter.com. (96)
+23:37:46.338656 IP (tos 0x0, ttl 4, id 41520, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33445: [udp sum ok] UDP, length 28
+23:37:46.345370 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 39) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.409647 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 394) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:46.492509 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 39) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.493962 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 770) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.493975 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 770) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.493976 IP (tos 0x0, ttl 252, id 5976, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41520, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33445: [udp sum ok] UDP, length 28
+23:37:46.493989 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 776) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.494063 IP (tos 0x0, ttl 4, id 41521, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33446: [udp sum ok] UDP, length 28
+23:37:46.494137 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 51) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:46.495912 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 401) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:46.514012 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 39) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.648672 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 39) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.651007 IP (tos 0x0, ttl 252, id 5984, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41521, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33446: [udp sum ok] UDP, length 28
+23:37:46.651034 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 770) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.651204 IP (tos 0x0, ttl 5, id 41522, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33447: [udp sum ok] UDP, length 28
+23:37:46.663191 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 778) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:46.663313 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 51) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:46.675752 IP (tos 0x0, ttl 251, id 7577, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-25-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41522, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33447: [udp sum ok] UDP, length 28
+23:37:46.676451 IP6 (flowlabel 0x20f00, hlim 64, next-header UDP (17) payload length: 51) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56310 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 30006+ PTR? 22.19.14.107.in-addr.arpa. (43)
+23:37:46.832771 IP6 (hlim 57, next-header UDP (17) payload length: 111) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56310: [udp sum ok] 30006 q: PTR? 22.19.14.107.in-addr.arpa. 1/0/0 22.19.14.107.in-addr.arpa. [3h56m9s] PTR lag-25-10.nycmny837aw-bcr00.netops.charter.com. (103)
+23:37:46.833146 IP (tos 0x0, ttl 5, id 41523, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33448: [udp sum ok] UDP, length 28
+23:37:46.863716 IP (tos 0x0, ttl 251, id 3517, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-15-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41523, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33448: [udp sum ok] UDP, length 28
+23:37:46.864323 IP6 (flowlabel 0x30d00, hlim 64, next-header UDP (17) payload length: 50) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.52762 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 26779+ PTR? 76.6.109.66.in-addr.arpa. (42)
+23:37:46.895082 IP6 (flowlabel 0xe0f00, hlim 64, next-header UDP (17) payload length: 12) rishabs-macbook-pro.local.xserveraid > fe80::823:7221:482:17e.xserveraid: [udp sum ok] UDP, length 4
+23:37:47.011266 IP6 (hlim 57, next-header UDP (17) payload length: 110) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.52762: [udp sum ok] 26779 q: PTR? 76.6.109.66.in-addr.arpa. 1/0/0 76.6.109.66.in-addr.arpa. [3h48m51s] PTR lag-15-10.nycmny837aw-bcr00.netops.charter.com. (102)
+23:37:47.011720 IP (tos 0x0, ttl 5, id 41524, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33449: [udp sum ok] UDP, length 28
+23:37:47.034897 IP (tos 0x0, ttl 251, id 50760, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-25-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41524, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33449: [udp sum ok] UDP, length 28
+23:37:47.036050 IP (tos 0x0, ttl 6, id 41525, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33450: [udp sum ok] UDP, length 28
+23:37:47.171306 IP (tos 0x0, ttl 58, id 52683, offset 0, flags [none], proto ICMP (1), length 84)
+    72.14.218.88 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x0, ttl 1, id 41525, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33450: [udp sum ok] UDP, length 28
+23:37:47.171920 IP6 (flowlabel 0x20d00, hlim 64, next-header UDP (17) payload length: 51) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.59823 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 49727+ PTR? 88.218.14.72.in-addr.arpa. (43)
+23:37:47.203468 IP6 (hlim 57, next-header UDP (17) payload length: 111) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.59823: [udp sum ok] 49727 NXDomain q: PTR? 88.218.14.72.in-addr.arpa. 0/1/0 ns: 218.14.72.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (103)
+23:37:47.203995 IP (tos 0x0, ttl 6, id 41526, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33451: [udp sum ok] UDP, length 28
+23:37:47.351785 IP (tos 0x0, ttl 58, id 14254, offset 0, flags [none], proto ICMP (1), length 96)
+    syn-066-109-007-097.inf.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41526, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33451: [udp sum ok] UDP, length 28
+23:37:47.353100 IP6 (flowlabel 0xb0800, hlim 64, next-header UDP (17) payload length: 50) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.53458 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 18515+ PTR? 97.7.109.66.in-addr.arpa. (42)
+23:37:47.371111 IP6 (hlim 57, next-header UDP (17) payload length: 100) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.53458: [udp sum ok] 18515 q: PTR? 97.7.109.66.in-addr.arpa. 1/0/0 97.7.109.66.in-addr.arpa. [14m45s] PTR syn-066-109-007-097.inf.spectrum.com. (92)
+23:37:47.371456 IP (tos 0x0, ttl 6, id 41527, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33452: [udp sum ok] UDP, length 28
+23:37:47.391935 IP (tos 0x0, ttl 58, id 2941, offset 0, flags [none], proto ICMP (1), length 84)
+    72.14.214.208 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x0, ttl 1, id 41527, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33452: [udp sum ok] UDP, length 28
+23:37:47.392880 IP6 (flowlabel 0x00400, hlim 64, next-header UDP (17) payload length: 52) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.57834 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 58034+ PTR? 208.214.14.72.in-addr.arpa. (44)
+23:37:47.531745 IP6 (hlim 57, next-header UDP (17) payload length: 112) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.57834: [udp sum ok] 58034 NXDomain q: PTR? 208.214.14.72.in-addr.arpa. 0/1/0 ns: 214.14.72.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (104)
+23:37:47.532274 IP (tos 0x0, ttl 7, id 41528, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33453: [udp sum ok] UDP, length 28
+23:37:47.554207 IP (tos 0x0, ttl 56, id 64393, offset 0, flags [none], proto ICMP (1), length 84)
+    192.178.107.39 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x80, ttl 1, id 41528, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33453: [udp sum ok] UDP, length 28
+23:37:47.555153 IP6 (flowlabel 0x70200, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.62626 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 24165+ PTR? 39.107.178.192.in-addr.arpa. (45)
+23:37:47.572216 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.62626: [udp sum ok] 24165 NXDomain q: PTR? 39.107.178.192.in-addr.arpa. 0/1/0 ns: 178.192.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:37:47.573427 IP (tos 0x0, ttl 7, id 41529, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33454: [udp sum ok] UDP, length 28
+23:37:47.592637 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 404) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:47.711839 IP (tos 0x0, ttl 56, id 64400, offset 0, flags [none], proto ICMP (1), length 84)
+    192.178.107.39 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x80, ttl 1, id 41529, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33454: [udp sum ok] UDP, length 28
+23:37:47.711938 IP (tos 0x0, ttl 7, id 41530, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33455: [udp sum ok] UDP, length 28
+23:37:47.727129 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 39) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:47.740339 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 770) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:47.767395 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 51) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:47.892943 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 778) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:37:47.920159 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 51) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:37:52.716983 IP (tos 0x0, ttl 8, id 41531, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33456: [udp sum ok] UDP, length 28
+23:37:52.745747 IP (tos 0x0, ttl 58, id 25278, offset 0, flags [none], proto ICMP (1), length 96)
+    209.85.253.142 > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x80, ttl 1, id 41531, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33456: [udp sum ok] UDP, length 28
+23:37:52.746295 IP6 (flowlabel 0x20800, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.57945 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 9567+ PTR? 142.253.85.209.in-addr.arpa. (45)
+23:37:52.782003 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.57945: [udp sum ok] 9567 NXDomain q: PTR? 142.253.85.209.in-addr.arpa. 0/1/0 ns: 253.85.209.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:37:52.782576 IP (tos 0x0, ttl 8, id 41532, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33457: [udp sum ok] UDP, length 28
+23:37:52.799789 IP (tos 0x0, ttl 247, id 51689, offset 0, flags [none], proto ICMP (1), length 96)
+    142.251.65.112 > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x80, ttl 1, id 41532, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33457: [udp sum ok] UDP, length 28
+23:37:52.800580 IP6 (flowlabel 0xd0400, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63095 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 37790+ PTR? 112.65.251.142.in-addr.arpa. (45)
+23:37:52.827101 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63095: [udp sum ok] 37790 NXDomain q: PTR? 112.65.251.142.in-addr.arpa. 0/1/0 ns: 251.142.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:37:52.827895 IP (tos 0x0, ttl 8, id 41533, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33458: [udp sum ok] UDP, length 28
+23:37:52.845264 IP (tos 0x0, ttl 58, id 42807, offset 0, flags [none], proto ICMP (1), length 84)
+    142.251.60.231 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x80, ttl 1, id 41533, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33458: [udp sum ok] UDP, length 28
+23:37:52.845901 IP6 (flowlabel 0x60500, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.62696 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 4840+ PTR? 231.60.251.142.in-addr.arpa. (45)
+23:37:52.870010 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.62696: [udp sum ok] 4840 NXDomain q: PTR? 231.60.251.142.in-addr.arpa. 0/1/0 ns: 251.142.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:37:52.870479 IP (tos 0x0, ttl 9, id 41534, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33459: [udp sum ok] UDP, length 28
+23:37:52.884775 IP (tos 0x0, ttl 117, id 0, offset 0, flags [none], proto ICMP (1), length 56)
+    lga25s71-in-f14.1e100.net > 192.168.1.90: ICMP lga25s71-in-f14.1e100.net udp port 33459 unreachable, length 36
+	IP (tos 0x80, ttl 1, id 41534, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33459: UDP, length 28
+23:37:52.885409 IP6 (flowlabel 0xb0200, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.59509 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 30062+ PTR? 174.65.250.142.in-addr.arpa. (45)
+23:37:52.904596 IP6 (hlim 57, next-header UDP (17) payload length: 92) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.59509: [udp sum ok] 30062 q: PTR? 174.65.250.142.in-addr.arpa. 1/0/0 174.65.250.142.in-addr.arpa. [23h32m4s] PTR lga25s71-in-f14.1e100.net. (84)
+23:37:52.905144 IP (tos 0x0, ttl 9, id 41535, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33460: [udp sum ok] UDP, length 28
+23:37:52.920689 IP (tos 0x0, ttl 58, id 42810, offset 0, flags [none], proto ICMP (1), length 84)
+    142.251.60.231 > 192.168.1.90: ICMP time exceeded in-transit, length 64
+	IP (tos 0x80, ttl 1, id 41535, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33460: [udp sum ok] UDP, length 28
+23:37:52.921281 IP (tos 0x0, ttl 9, id 41536, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33461: [udp sum ok] UDP, length 28
+23:37:52.943267 IP (tos 0x0, ttl 247, id 0, offset 0, flags [none], proto ICMP (1), length 56)
+    192.178.106.20 > 192.168.1.90: ICMP time exceeded in-transit, length 36
+	IP (tos 0x80, ttl 1, id 41536, offset 0, flags [none], proto UDP (17), length 56)
+    192.168.1.90.41509 > lga25s71-in-f14.1e100.net.33461: UDP, length 28
+23:37:52.943823 IP6 (flowlabel 0xc0a00, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.52593 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 57850+ PTR? 20.106.178.192.in-addr.arpa. (45)
+23:37:52.975208 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.52593: [udp sum ok] 57850 NXDomain q: PTR? 20.106.178.192.in-addr.arpa. 0/1/0 ns: 178.192.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:37:53.350849 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e122e98797940f] (73)
+23:37:53.350859 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e122e98797940f] (73)
+23:37:53.350863 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e122e98797940f] (73)
+23:37:54.354041 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e122e98797940f] (73)
+23:37:54.354060 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e122e98797940f] (73)
+23:37:54.354134 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e122e98797940f] (73)
+23:37:54.670308 IP6 (hlim 59, next-header UDP (17) payload length: 88) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:37:54.670568 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 42) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:37:55.217273 IP (tos 0x0, ttl 255, id 5321, offset 0, flags [none], proto UDP (17), length 113)
+    192.168.1.91.mdns > mdns.mcast.net.mdns: [udp sum ok] 0 [4q] PTR (QU)? _hap._tcp.local. PTR (QU)? _hap._udp.local. PTR (QU)? _companion-link._tcp.local. PTR (QU)? _rdlink._tcp.local. (85)
+23:37:55.217551 IP6 (flowlabel 0xe0d00, hlim 255, next-header UDP (17) payload length: 93) fe80::823:7221:482:17e.mdns > ff02::fb.mdns: [udp sum ok] 0 [4q] PTR (QU)? _hap._tcp.local. PTR (QU)? _hap._udp.local. PTR (QU)? _companion-link._tcp.local. PTR (QU)? _rdlink._tcp.local. (85)
+23:37:55.304077 IP (tos 0x0, ttl 255, id 54731, offset 0, flags [none], proto UDP (17), length 445)
+    192.168.1.90.mdns > 192.168.1.91.mdns: [udp sum ok] 0*- [0q] 1/0/7 _companion-link._tcp.local. [1h15m] PTR RishabM-bM-^@M-^Ys MacBook Pro._companion-link._tcp.local. ar: RishabM-bM-^@M-^Ys MacBook Pro._companion-link._tcp.local. (Cache flush) [1h15m] SRV Rishabs-MacBook-Pro.local.:53570 0 0, RishabM-bM-^@M-^Ys MacBook Pro._companion-link._tcp.local. (Cache flush) [1h15m] TXT "rpBA=21:F0:3B:21:D5:8A" "rpAD=93cb1df6bbb5" "rpFl=0x20000" "rpHN=e05f4b234bc6" "rpMac=0" "rpVr=580.4", RishabM-bM-^@M-^Ys MacBook Pro._device-info._tcp.local. [1h15m] TXT "model=MacBookPro16,1" "osxvers=23" "ecolor=225,225,223", Rishabs-MacBook-Pro.local. (Cache flush) [1h15m] AAAA fe80::10ab:37d9:960b:5290, Rishabs-MacBook-Pro.local. (Cache flush) [1h15m] AAAA 2603:7000:9501:1bc8:1476:7e92:bd6b:1b71, Rishabs-MacBook-Pro.local. (Cache flush) [1h15m] AAAA 2603:7000:9501:1bc8:0:8830:188:39f9, Rishabs-MacBook-Pro.local. (Cache flush) [1h15m] A 192.168.1.90 (417)
+23:37:56.138763 IP (tos 0x0, ttl 255, id 11796, offset 0, flags [none], proto UDP (17), length 177)
+    192.168.1.91.mdns > mdns.mcast.net.mdns: [udp sum ok] 0 [2a] [4q] PTR (QM)? _hap._tcp.local. PTR (QM)? _hap._udp.local. PTR (QM)? _companion-link._tcp.local. PTR (QM)? _rdlink._tcp.local. _companion-link._tcp.local. [1h15m] PTR RishabM-bM-^@M-^Ys MacBook Pro._companion-link._tcp.local., _rdlink._tcp.local. [1h15m] PTR iPhone (138)._rdlink._tcp.local. (149)
+23:37:56.139186 IP6 (flowlabel 0xe0d00, hlim 255, next-header UDP (17) payload length: 157) fe80::823:7221:482:17e.mdns > ff02::fb.mdns: [udp sum ok] 0 [2a] [4q] PTR (QM)? _hap._tcp.local. PTR (QM)? _hap._udp.local. PTR (QM)? _companion-link._tcp.local. PTR (QM)? _rdlink._tcp.local. _companion-link._tcp.local. [1h15m] PTR RishabM-bM-^@M-^Ys MacBook Pro._companion-link._tcp.local., _rdlink._tcp.local. [1h15m] PTR iPhone (138)._rdlink._tcp.local. (149)
+23:37:57.361311 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
+23:37:57.361325 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
+23:37:57.361380 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
+23:37:57.718284 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 256) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:37:57.741136 IP6 (hlim 59, next-header UDP (17) payload length: 41) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:37:57.744040 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+=== Analysis for wireshark_ip_lab_output/trace_2000.pcap ===
+Q1. Source IP address:
+Q2. IP Protocol Number (ICMP=1):
+1
+Q3. IP Header Analysis:
+Q4. Fragmentation Analysis:
+23:38:00.001289 IP (tos 0x0, ttl 1, id 41517, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33435: UDP, length 1972
+23:38:00.118437 IP (tos 0x0, ttl 1, id 41518, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33436: UDP, length 1972
+23:38:00.120223 IP (tos 0x0, ttl 1, id 41519, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33437: UDP, length 1972
+23:38:00.122151 IP (tos 0x0, ttl 2, id 41520, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33438: UDP, length 1972
+23:38:00.209423 IP (tos 0x0, ttl 2, id 41521, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33439: UDP, length 1972
+23:38:00.223113 IP (tos 0x0, ttl 2, id 41522, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33440: UDP, length 1972
+23:38:00.248004 IP (tos 0x0, ttl 3, id 41523, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33441: UDP, length 1972
+23:38:00.264529 IP (tos 0x0, ttl 3, id 41524, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33442: UDP, length 1972
+23:38:00.283930 IP (tos 0x0, ttl 3, id 41525, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33443: UDP, length 1972
+23:38:00.302627 IP (tos 0x0, ttl 4, id 41526, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33444: UDP, length 1972
+23:38:00.321471 IP (tos 0x0, ttl 4, id 41527, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33445: UDP, length 1972
+23:38:00.385528 IP (tos 0x0, ttl 4, id 41528, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33446: UDP, length 1972
+23:38:00.405375 IP (tos 0x0, ttl 5, id 41529, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33447: UDP, length 1972
+23:38:00.581513 IP (tos 0x0, ttl 5, id 41530, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33448: UDP, length 1972
+23:38:00.599190 IP (tos 0x0, ttl 5, id 41531, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33449: UDP, length 1972
+23:38:00.672130 IP (tos 0x0, ttl 6, id 41532, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33450: UDP, length 1972
+23:38:00.716786 IP (tos 0x0, ttl 6, id 41533, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33451: UDP, length 1972
+23:38:00.732141 IP (tos 0x0, ttl 6, id 41534, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33452: UDP, length 1972
+23:38:00.751244 IP (tos 0x0, ttl 7, id 41535, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33453: UDP, length 1972
+23:38:05.756289 IP (tos 0x0, ttl 7, id 41536, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33454: UDP, length 1972
+23:38:10.757405 IP (tos 0x0, ttl 7, id 41537, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33455: UDP, length 1972
+23:38:15.760501 IP (tos 0x0, ttl 8, id 41538, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33456: UDP, length 1972
+23:38:15.824583 IP (tos 0x0, ttl 8, id 41539, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33457: UDP, length 1972
+23:38:15.868594 IP (tos 0x0, ttl 8, id 41540, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33458: UDP, length 1972
+23:38:15.945280 IP (tos 0x0, ttl 9, id 41541, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33459: UDP, length 1972
+23:38:20.946968 IP (tos 0x0, ttl 9, id 41542, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33460: UDP, length 1972
+23:38:25.951990 IP (tos 0x0, ttl 9, id 41543, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33461: UDP, length 1972
+23:38:27.576980 IP (tos 0x0, ttl 64, id 33363, offset 0, flags [DF], proto UDP (17), length 173)
+    192.168.1.4.9956 > 192.168.1.255.9956: UDP, length 145
+23:38:30.957000 IP (tos 0x0, ttl 10, id 41544, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33462: UDP, length 1972
+23:38:31.003451 IP (tos 0x0, ttl 10, id 41545, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33463: UDP, length 1972
+23:38:31.018727 IP (tos 0x0, ttl 58, id 5713, offset 0, flags [DF], proto ICMP (1), length 168)
+    142.251.69.62 > 192.168.1.90: ICMP time exceeded in-transit, length 148
+	IP (tos 0x80, ttl 1, id 41545, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33463: UDP, length 1972
+	MPLS extension v2, checksum 0x5f5c (correct), length 12
+	  MPLS Stack Entry Object (1), Class-Type: 1, length 8
+	    label 485776, exp 4, [S], ttl 1
+23:38:31.048442 IP (tos 0x0, ttl 10, id 41546, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33464: UDP, length 1972
+Detailed packet analysis:
+23:37:59.211345 IP (tos 0x0, ttl 255, id 64121, offset 0, flags [none], proto UDP (17), length 177)
+    192.168.1.91.mdns > mdns.mcast.net.mdns: [udp sum ok] 0 [2a] [4q] PTR (QM)? _hap._tcp.local. PTR (QM)? _hap._udp.local. PTR (QM)? _companion-link._tcp.local. PTR (QM)? _rdlink._tcp.local. _companion-link._tcp.local. [1h14m57s] PTR RishabM-bM-^@M-^Ys MacBook Pro._companion-link._tcp.local., _rdlink._tcp.local. [1h14m57s] PTR iPhone (138)._rdlink._tcp.local. (149)
+23:37:59.211352 IP6 (flowlabel 0xe0d00, hlim 255, next-header UDP (17) payload length: 157) fe80::823:7221:482:17e.mdns > ff02::fb.mdns: [udp sum ok] 0 [2a] [4q] PTR (QM)? _hap._tcp.local. PTR (QM)? _hap._udp.local. PTR (QM)? _companion-link._tcp.local. PTR (QM)? _rdlink._tcp.local. _companion-link._tcp.local. [1h14m57s] PTR RishabM-bM-^@M-^Ys MacBook Pro._companion-link._tcp.local., _rdlink._tcp.local. [1h14m57s] PTR iPhone (138)._rdlink._tcp.local. (149)
+23:38:00.001289 IP (tos 0x0, ttl 1, id 41517, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33435: UDP, length 1972
+23:38:00.001319 IP (tos 0x0, ttl 1, id 41517, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.117354 IP (tos 0xc0, ttl 64, id 23494, offset 0, flags [none], proto ICMP (1), length 576)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41517, offset 0, flags [none], proto UDP (17), length 2000)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33435: UDP, length 1972
+23:38:00.118437 IP (tos 0x0, ttl 1, id 41518, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33436: UDP, length 1972
+23:38:00.118486 IP (tos 0x0, ttl 1, id 41518, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.120093 IP (tos 0xc0, ttl 64, id 23495, offset 0, flags [none], proto ICMP (1), length 576)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41518, offset 0, flags [none], proto UDP (17), length 2000)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33436: UDP, length 1972
+23:38:00.120223 IP (tos 0x0, ttl 1, id 41519, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33437: UDP, length 1972
+23:38:00.120263 IP (tos 0x0, ttl 1, id 41519, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.122025 IP (tos 0xc0, ttl 64, id 23496, offset 0, flags [none], proto ICMP (1), length 576)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41519, offset 0, flags [none], proto UDP (17), length 2000)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33437: UDP, length 1972
+23:38:00.122151 IP (tos 0x0, ttl 2, id 41520, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33438: UDP, length 1972
+23:38:00.122197 IP (tos 0x0, ttl 2, id 41520, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.208358 IP (tos 0xc0, ttl 63, id 11879, offset 0, flags [none], proto ICMP (1), length 576)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41520, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33438: UDP, length 1972
+23:38:00.209423 IP (tos 0x0, ttl 2, id 41521, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33439: UDP, length 1972
+23:38:00.209487 IP (tos 0x0, ttl 2, id 41521, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.223014 IP (tos 0xc0, ttl 63, id 11880, offset 0, flags [none], proto ICMP (1), length 576)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41521, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33439: UDP, length 1972
+23:38:00.223113 IP (tos 0x0, ttl 2, id 41522, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33440: UDP, length 1972
+23:38:00.223144 IP (tos 0x0, ttl 2, id 41522, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.247938 IP (tos 0xc0, ttl 63, id 11881, offset 0, flags [none], proto ICMP (1), length 576)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41522, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33440: UDP, length 1972
+23:38:00.248004 IP (tos 0x0, ttl 3, id 41523, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33441: UDP, length 1972
+23:38:00.248025 IP (tos 0x0, ttl 3, id 41523, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.263962 IP (tos 0x0, ttl 253, id 3096, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41523, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33441: UDP, length 1972
+23:38:00.264529 IP (tos 0x0, ttl 3, id 41524, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33442: UDP, length 1972
+23:38:00.264562 IP (tos 0x0, ttl 3, id 41524, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.283833 IP (tos 0x0, ttl 253, id 3097, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41524, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33442: UDP, length 1972
+23:38:00.283930 IP (tos 0x0, ttl 3, id 41525, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33443: UDP, length 1972
+23:38:00.283958 IP (tos 0x0, ttl 3, id 41525, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.302526 IP (tos 0x0, ttl 253, id 3098, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41525, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33443: UDP, length 1972
+23:38:00.302627 IP (tos 0x0, ttl 4, id 41526, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33444: UDP, length 1972
+23:38:00.302653 IP (tos 0x0, ttl 4, id 41526, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.320863 IP (tos 0x0, ttl 252, id 6543, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41526, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33444: UDP, length 1972
+23:38:00.321471 IP (tos 0x0, ttl 4, id 41527, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33445: UDP, length 1972
+23:38:00.321504 IP (tos 0x0, ttl 4, id 41527, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.385334 IP (tos 0x0, ttl 252, id 6544, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41527, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33445: UDP, length 1972
+23:38:00.385528 IP (tos 0x0, ttl 4, id 41528, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33446: UDP, length 1972
+23:38:00.385546 IP (tos 0x0, ttl 4, id 41528, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.405276 IP (tos 0x0, ttl 252, id 6547, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41528, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33446: UDP, length 1972
+23:38:00.405375 IP (tos 0x0, ttl 5, id 41529, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33447: UDP, length 1972
+23:38:00.405400 IP (tos 0x0, ttl 5, id 41529, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.580508 IP (tos 0x0, ttl 251, id 11961, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-25-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41529, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33447: UDP, length 1972
+23:38:00.581513 IP (tos 0x0, ttl 5, id 41530, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33448: UDP, length 1972
+23:38:00.581559 IP (tos 0x0, ttl 5, id 41530, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.599079 IP (tos 0x0, ttl 251, id 12036, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-25-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41530, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33448: UDP, length 1972
+23:38:00.599190 IP (tos 0x0, ttl 5, id 41531, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33449: UDP, length 1972
+23:38:00.599216 IP (tos 0x0, ttl 5, id 41531, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.672000 IP (tos 0x0, ttl 251, id 12046, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-25-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41531, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33449: UDP, length 1972
+23:38:00.672130 IP (tos 0x0, ttl 6, id 41532, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33450: UDP, length 1972
+23:38:00.672139 IP (tos 0x0, ttl 6, id 41532, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.691061 IP (tos 0x0, ttl 55, id 14173, offset 0, flags [none], proto ICMP (1), length 576)
+    209.85.172.44 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41532, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33450: UDP, length 1972
+23:38:00.691718 IP6 (flowlabel 0x40f00, hlim 64, next-header UDP (17) payload length: 52) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.60420 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 42367+ PTR? 44.172.85.209.in-addr.arpa. (44)
+23:38:00.716223 IP6 (hlim 57, next-header UDP (17) payload length: 112) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.60420: [udp sum ok] 42367 NXDomain q: PTR? 44.172.85.209.in-addr.arpa. 0/1/0 ns: 172.85.209.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (104)
+23:38:00.716786 IP (tos 0x0, ttl 6, id 41533, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33451: UDP, length 1972
+23:38:00.716823 IP (tos 0x0, ttl 6, id 41533, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.732039 IP (tos 0x0, ttl 55, id 14179, offset 0, flags [none], proto ICMP (1), length 576)
+    209.85.172.44 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41533, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33451: UDP, length 1972
+23:38:00.732141 IP (tos 0x0, ttl 6, id 41534, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33452: UDP, length 1972
+23:38:00.732175 IP (tos 0x0, ttl 6, id 41534, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:00.751128 IP (tos 0x0, ttl 55, id 14180, offset 0, flags [none], proto ICMP (1), length 576)
+    209.85.172.44 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41534, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33452: UDP, length 1972
+23:38:00.751244 IP (tos 0x0, ttl 7, id 41535, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33453: UDP, length 1972
+23:38:00.751276 IP (tos 0x0, ttl 7, id 41535, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:01.012561 IP6 (hlim 59, next-header UDP (17) payload length: 89) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:01.015474 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:01.708352 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, initial, dcid 41e4f8c8eceb566f, token 000c36e711577515ef3f043dfb5007e9aa5b308eba83dd4e5718755a499cadca8fda9f3a286141456f40ca6b6fcc42fe3d1db747b290be4c07ca57a6d2a2a332da9f3c5274c07c, length 1140
+23:38:01.708397 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, initial, dcid 41e4f8c8eceb566f, token 000c36e711577515ef3f043dfb5007e9aa5b308eba83dd4e5718755a499cadca8fda9f3a286141456f40ca6b6fcc42fe3d1db747b290be4c07ca57a6d2a2a332da9f3c5274c07c, length 1140
+23:38:01.708623 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 84) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, 0-rtt, dcid 41e4f8c8eceb566f, length 59
+23:38:01.709017 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 599) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, 0-rtt, dcid 41e4f8c8eceb566f, length 574
+23:38:01.734507 IP6 (hlim 59, next-header UDP (17) payload length: 48) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, initial, scid e1e4f8c8eceb566f, length 22
+23:38:01.764080 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, initial, dcid e1e4f8c8eceb566f, token 000c36e711577515ef3f043dfb5007e9aa5b308eba83dd4e5718755a499cadca8fda9f3a286141456f40ca6b6fcc42fe3d1db747b290be4c07ca57a6d2a2a332da9f3c5274c07c, length 1140
+23:38:01.870503 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, initial, dcid e1e4f8c8eceb566f, token 000c36e711577515ef3f043dfb5007e9aa5b308eba83dd4e5718755a499cadca8fda9f3a286141456f40ca6b6fcc42fe3d1db747b290be4c07ca57a6d2a2a332da9f3c5274c07c, length 1140
+23:38:01.911539 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, initial, scid e1e4f8c8eceb566f, length 1212
+23:38:01.911544 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, initial, scid e1e4f8c8eceb566f, length 1212
+23:38:01.911546 IP6 (hlim 59, next-header UDP (17) payload length: 318) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, handshake, scid e1e4f8c8eceb566f, length 225, protected
+23:38:01.911548 IP6 (hlim 59, next-header UDP (17) payload length: 928) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:01.911550 IP6 (hlim 59, next-header UDP (17) payload length: 55) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:01.911552 IP6 (hlim 59, next-header UDP (17) payload length: 32) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:01.911554 IP6 (hlim 59, next-header UDP (17) payload length: 30) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:01.911555 IP6 (hlim 59, next-header UDP (17) payload length: 536) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:01.911557 IP6 (hlim 59, next-header UDP (17) payload length: 31) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:01.911559 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, initial, scid e1e4f8c8eceb566f, length 1212
+23:38:01.911560 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, initial, scid e1e4f8c8eceb566f, length 1212
+23:38:01.911562 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, initial, scid e1e4f8c8eceb566f, length 902, handshake, scid e1e4f8c8eceb566f, length 225, protected
+23:38:01.912572 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 86) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, handshake, dcid e1e4f8c8eceb566f, length 61
+23:38:01.912667 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid e1e4f8c8eceb566f
+23:38:01.912788 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid e1e4f8c8eceb566f
+23:38:01.912941 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid e1e4f8c8eceb566f
+23:38:01.913026 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 125) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, handshake, dcid e1e4f8c8eceb566f, length 63, protected, dcid e1e4f8c8eceb566f
+23:38:02.044498 IP6 (hlim 59, next-header UDP (17) payload length: 129) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:02.044503 IP6 (hlim 59, next-header UDP (17) payload length: 33) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:02.044505 IP6 (hlim 59, next-header UDP (17) payload length: 35) lga25s74-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944: [udp sum ok] quic, protected
+23:38:02.044761 IP6 (flowlabel 0x40b00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49944 > lga25s74-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid e1e4f8c8eceb566f
+23:38:05.756289 IP (tos 0x0, ttl 7, id 41536, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33454: UDP, length 1972
+23:38:05.756366 IP (tos 0x0, ttl 7, id 41536, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:06.380494 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
+23:38:06.380512 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
+23:38:06.380586 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::20e9:87ff:fe97:940f.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
+23:38:07.897340 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 49) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:38:07.963369 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 39) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:38:10.757405 IP (tos 0x0, ttl 7, id 41537, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33455: UDP, length 1972
+23:38:10.757465 IP (tos 0x0, ttl 7, id 41537, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:15.076989 IP6 (hlim 59, next-header UDP (17) payload length: 89) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:15.080529 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:15.760501 IP (tos 0x0, ttl 8, id 41538, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33456: UDP, length 1972
+23:38:15.760574 IP (tos 0x0, ttl 8, id 41538, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:15.784284 IP (tos 0x0, ttl 247, id 53753, offset 0, flags [none], proto ICMP (1), length 96)
+    142.251.65.92 > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x80, ttl 1, id 41538, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33456: UDP, length 1972
+23:38:15.784989 IP6 (flowlabel 0x80f00, hlim 64, next-header UDP (17) payload length: 52) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49370 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 24404+ PTR? 92.65.251.142.in-addr.arpa. (44)
+23:38:15.823653 IP6 (hlim 57, next-header UDP (17) payload length: 112) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.49370: [udp sum ok] 24404 NXDomain q: PTR? 92.65.251.142.in-addr.arpa. 0/1/0 ns: 251.142.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (104)
+23:38:15.824583 IP (tos 0x0, ttl 8, id 41539, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33457: UDP, length 1972
+23:38:15.824617 IP (tos 0x0, ttl 8, id 41539, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:15.844862 IP (tos 0x0, ttl 247, id 30770, offset 0, flags [none], proto ICMP (1), length 96)
+    108.170.236.88 > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x80, ttl 1, id 41539, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33457: UDP, length 1972
+23:38:15.845535 IP6 (flowlabel 0x20300, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.57498 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 42900+ PTR? 88.236.170.108.in-addr.arpa. (45)
+23:38:15.868112 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.57498: [udp sum ok] 42900 NXDomain q: PTR? 88.236.170.108.in-addr.arpa. 0/1/0 ns: 236.170.108.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:38:15.868594 IP (tos 0x0, ttl 8, id 41540, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33458: UDP, length 1972
+23:38:15.868623 IP (tos 0x0, ttl 8, id 41540, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:15.904080 IP (tos 0x0, ttl 247, id 12345, offset 0, flags [none], proto ICMP (1), length 96)
+    216.239.43.154 > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x80, ttl 1, id 41540, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33458: UDP, length 1972
+23:38:15.904697 IP6 (flowlabel 0xb0000, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.60464 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 26659+ PTR? 154.43.239.216.in-addr.arpa. (45)
+23:38:15.944736 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.60464: [udp sum ok] 26659 NXDomain q: PTR? 154.43.239.216.in-addr.arpa. 0/1/0 ns: 43.239.216.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:38:15.945280 IP (tos 0x0, ttl 9, id 41541, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33459: UDP, length 1972
+23:38:15.945315 IP (tos 0x0, ttl 9, id 41541, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:20.946968 IP (tos 0x0, ttl 9, id 41542, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33460: UDP, length 1972
+23:38:20.947041 IP (tos 0x0, ttl 9, id 41542, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:21.251833 IP6 (hlim 59, next-header UDP (17) payload length: 89) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:21.251837 IP6 (hlim 59, next-header UDP (17) payload length: 32) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:21.251839 IP6 (hlim 59, next-header UDP (17) payload length: 89) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:21.252149 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 42) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:21.260196 IP6 (flowlabel 0x20000, hlim 64, next-header UDP (17) payload length: 45) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.iad1 > dns-cac-lb-01.rr.com.domain: [udp sum ok] 6051+ AAAA? doh-02.spectrum.com. (37)
+23:38:21.260286 IP6 (flowlabel 0x00e00, hlim 64, next-header UDP (17) payload length: 45) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.34039 > dns-cac-lb-01.rr.com.domain: [udp sum ok] 26814+ A? doh-02.spectrum.com. (37)
+23:38:21.260366 IP6 (flowlabel 0xf0d00, hlim 64, next-header UDP (17) payload length: 45) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.11133 > dns-cac-lb-01.rr.com.domain: [udp sum ok] 62968+ Type65? doh-02.spectrum.com. (37)
+23:38:21.279610 IP6 (hlim 57, next-header UDP (17) payload length: 61) dns-cac-lb-01.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.34039: [udp sum ok] 26814 q: A? doh-02.spectrum.com. 1/0/0 doh-02.spectrum.com. [7m1s] A 24.240.146.8 (53)
+23:38:21.280312 IP6 (hlim 57, next-header UDP (17) payload length: 106) dns-cac-lb-01.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.11133: [udp sum ok] 62968 q: Type65? doh-02.spectrum.com. 0/1/0 ns: spectrum.com. [30s] SOA aB.ns.charter.com. hostmaster.charter.com. 2023130204 86400 3600 3600000 172800 (98)
+23:38:21.280631 IP6 (hlim 57, next-header UDP (17) payload length: 73) dns-cac-lb-01.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.iad1: [udp sum ok] 6051 q: AAAA? doh-02.spectrum.com. 1/0/0 doh-02.spectrum.com. [1m33s] AAAA 2600:6c7f:f000:202::8 (65)
+23:38:21.614846 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, initial, dcid 003ba57216307b5f, token 0050ed9d7bcf37b1a75fc0e1da0c872c2c8bbff747b2a2341dfaad133de9e98604b5c76711eedadc39efe841fd2f6aa7bfce7cc36896098f8bd165ae88aa2dadecc13805e6d939, length 1140
+23:38:21.614889 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, initial, dcid 003ba57216307b5f, token 0050ed9d7bcf37b1a75fc0e1da0c872c2c8bbff747b2a2341dfaad133de9e98604b5c76711eedadc39efe841fd2f6aa7bfce7cc36896098f8bd165ae88aa2dadecc13805e6d939, length 1140
+23:38:21.614926 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, initial, dcid 003ba57216307b5f, token 0050ed9d7bcf37b1a75fc0e1da0c872c2c8bbff747b2a2341dfaad133de9e98604b5c76711eedadc39efe841fd2f6aa7bfce7cc36896098f8bd165ae88aa2dadecc13805e6d939, length 1140
+23:38:21.615194 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 86) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, 0-rtt, dcid 003ba57216307b5f, length 61
+23:38:21.615640 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 541) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, 0-rtt, dcid 003ba57216307b5f, length 516
+23:38:21.762704 IP6 (hlim 59, next-header UDP (17) payload length: 48) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, initial, scid e03ba57216307b5f, length 22
+23:38:21.762706 IP6 (hlim 59, next-header UDP (17) payload length: 48) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, initial, scid e03ba57216307b5f, length 22
+23:38:21.762708 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, initial, scid e03ba57216307b5f, length 1212
+23:38:21.762710 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, initial, scid e03ba57216307b5f, length 1212
+23:38:21.762712 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, initial, scid e03ba57216307b5f, length 1212
+23:38:21.762714 IP6 (hlim 59, next-header UDP (17) payload length: 312) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, handshake, scid e03ba57216307b5f, length 221, protected
+23:38:21.762716 IP6 (hlim 59, next-header UDP (17) payload length: 934) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:21.762717 IP6 (hlim 59, next-header UDP (17) payload length: 81) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:21.762719 IP6 (hlim 59, next-header UDP (17) payload length: 32) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:21.762720 IP6 (hlim 59, next-header UDP (17) payload length: 46) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:21.762722 IP6 (hlim 59, next-header UDP (17) payload length: 29) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:21.763904 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 86) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, handshake, dcid e03ba57216307b5f, length 61
+23:38:21.764000 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, protected, dcid e03ba57216307b5f
+23:38:21.764115 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, protected, dcid e03ba57216307b5f
+23:38:21.781300 IP6 (hlim 59, next-header UDP (17) payload length: 129) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:21.781304 IP6 (hlim 59, next-header UDP (17) payload length: 190) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:21.781555 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, protected, dcid e03ba57216307b5f
+23:38:21.784288 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 585) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:21.806926 IP6 (hlim 59, next-header UDP (17) payload length: 41) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:21.807298 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 44) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, protected, dcid e03ba57216307b5f
+23:38:21.810499 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:21.941922 IP6 (hlim 59, next-header UDP (17) payload length: 113) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:21.941927 IP6 (hlim 59, next-header UDP (17) payload length: 33) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:21.941929 IP6 (hlim 59, next-header UDP (17) payload length: 113) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:21.942325 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 49) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:21.966286 IP6 (hlim 59, next-header UDP (17) payload length: 34) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:22.657088 IP (tos 0x0, ttl 255, id 35848, offset 0, flags [none], proto UDP (17), length 103)
+    localhost.mdns > mdns.mcast.net.mdns: [bad udp cksum 0x6061 -> 0x3fcd!] 0 [4q] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. (75)
+23:38:22.657121 IP (tos 0x0, ttl 255, id 35848, offset 0, flags [none], proto UDP (17), length 103)
+    localhost.mdns > mdns.mcast.net.mdns: [bad udp cksum 0x6061 -> 0x3fcd!] 0 [4q] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. (75)
+23:38:22.657169 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 83) rishabs-macbook-pro.local.mdns > ff02::fb.mdns: [udp sum ok] 0 [4q] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. (75)
+23:38:22.657189 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 83) rishabs-macbook-pro.local.mdns > ff02::fb.mdns: [udp sum ok] 0 [4q] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. (75)
+23:38:22.657241 IP (tos 0x0, ttl 255, id 28622, offset 0, flags [none], proto UDP (17), length 132)
+    192.168.1.90.mdns > mdns.mcast.net.mdns: [bad udp cksum 0xa37f -> 0x0f40!] 0 [4q] [1au] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e188665a4b76e1] (104)
+23:38:22.657250 IP (tos 0x0, ttl 255, id 28622, offset 0, flags [none], proto UDP (17), length 132)
+    192.168.1.90.mdns > mdns.mcast.net.mdns: [bad udp cksum 0xa37f -> 0x0f40!] 0 [4q] [1au] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e188665a4b76e1] (104)
+23:38:22.657258 IP (tos 0x0, ttl 255, id 28622, offset 0, flags [none], proto UDP (17), length 132)
+    192.168.1.90.mdns > mdns.mcast.net.mdns: [udp sum ok] 0 [4q] [1au] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e188665a4b76e1] (104)
+23:38:22.657317 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 112) rishabs-macbook-pro.local.mdns > ff02::fb.mdns: [udp sum ok] 0 [4q] [1au] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e188665a4b76e1] (104)
+23:38:22.657325 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 112) rishabs-macbook-pro.local.mdns > ff02::fb.mdns: [udp sum ok] 0 [4q] [1au] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e188665a4b76e1] (104)
+23:38:22.657334 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 112) rishabs-macbook-pro.local.mdns > ff02::fb.mdns: [udp sum ok] 0 [4q] [1au] PTR (QM)? _afpovertcp._tcp.local. PTR (QM)? _smb._tcp.local. PTR (QM)? _rfb._tcp.local. PTR (QM)? _adisk._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e188665a4b76e1] (104)
+23:38:25.951990 IP (tos 0x0, ttl 9, id 41543, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33461: UDP, length 1972
+23:38:25.952066 IP (tos 0x0, ttl 9, id 41543, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:27.576980 IP (tos 0x0, ttl 64, id 33363, offset 0, flags [DF], proto UDP (17), length 173)
+    192.168.1.4.9956 > 192.168.1.255.9956: [udp sum ok] UDP, length 145
+23:38:27.967964 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 49) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:38:27.988912 IP6 (flowlabel 0x39f65, hlim 54, next-header UDP (17) payload length: 39) 2620:149:a41:20d::c.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493: [udp sum ok] quic, protected
+23:38:30.957000 IP (tos 0x0, ttl 10, id 41544, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33462: UDP, length 1972
+23:38:30.957078 IP (tos 0x0, ttl 10, id 41544, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:30.976213 IP (tos 0x0, ttl 58, id 22727, offset 0, flags [none], proto ICMP (1), length 168)
+    216.239.62.196 > 192.168.1.90: ICMP time exceeded in-transit, length 148
+	IP (tos 0x80, ttl 1, id 41544, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33462: UDP, length 1972
+	MPLS extension v2, checksum 0x2eda (correct), length 12
+	  MPLS Stack Entry Object (1), Class-Type: 1, length 8
+	    label 29114, exp 4, [S], ttl 1
+23:38:30.977077 IP6 (flowlabel 0x20a00, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63039 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 31413+ PTR? 196.62.239.216.in-addr.arpa. (45)
+23:38:31.002933 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63039: [udp sum ok] 31413 NXDomain q: PTR? 196.62.239.216.in-addr.arpa. 0/1/0 ns: 62.239.216.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:38:31.003451 IP (tos 0x0, ttl 10, id 41545, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33463: UDP, length 1972
+23:38:31.003487 IP (tos 0x0, ttl 10, id 41545, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:31.018727 IP (tos 0x0, ttl 58, id 5713, offset 0, flags [DF], proto ICMP (1), length 168)
+    142.251.69.62 > 192.168.1.90: ICMP time exceeded in-transit, length 148
+	IP (tos 0x80, ttl 1, id 41545, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33463: UDP, length 1972
+	MPLS extension v2, checksum 0x5f5c (correct), length 12
+	  MPLS Stack Entry Object (1), Class-Type: 1, length 8
+	    label 485776, exp 4, [S], ttl 1
+23:38:31.019346 IP6 (flowlabel 0xa0e00, hlim 64, next-header UDP (17) payload length: 52) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.65252 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 6969+ PTR? 62.69.251.142.in-addr.arpa. (44)
+23:38:31.047977 IP6 (hlim 57, next-header UDP (17) payload length: 112) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.65252: [udp sum ok] 6969 NXDomain q: PTR? 62.69.251.142.in-addr.arpa. 0/1/0 ns: 251.142.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (104)
+23:38:31.048442 IP (tos 0x0, ttl 10, id 41546, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33464: UDP, length 1972
+23:38:31.048474 IP (tos 0x0, ttl 10, id 41546, offset 1480, flags [none], proto UDP (17), length 520)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:31.062596 IP (tos 0x0, ttl 117, id 0, offset 0, flags [none], proto ICMP (1), length 56)
+    lga25s71-in-f14.1e100.net > 192.168.1.90: ICMP lga25s71-in-f14.1e100.net udp port 33464 unreachable, length 36
+	IP (tos 0x80, ttl 1, id 41546, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41516 > lga25s71-in-f14.1e100.net.33464: UDP, length 1972
+23:38:35.722186 IP6 (hlim 59, next-header UDP (17) payload length: 89) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:35.722190 IP6 (hlim 59, next-header UDP (17) payload length: 32) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:35.722192 IP6 (hlim 59, next-header UDP (17) payload length: 89) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:35.722515 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 42) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:35.730912 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 254) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, protected, dcid e03ba57216307b5f
+23:38:35.870391 IP6 (hlim 59, next-header UDP (17) payload length: 89) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:35.870395 IP6 (hlim 59, next-header UDP (17) payload length: 29) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:35.870799 IP6 (flowlabel 0x30200, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852 > lga34s38-in-x0a.1e100.net.https: [udp sum ok] quic, protected, dcid e03ba57216307b5f
+23:38:35.873013 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 363) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:35.896528 IP6 (hlim 59, next-header UDP (17) payload length: 41) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:35.900074 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:35.909452 IP6 (hlim 59, next-header UDP (17) payload length: 114) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:35.912516 IP6 (hlim 59, next-header UDP (17) payload length: 32) lga34s38-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54852: [udp sum ok] quic, protected
+23:38:35.912566 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 48) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+=== Analysis for wireshark_ip_lab_output/trace_3500.pcap ===
+Q1. Source IP address:
+Q2. IP Protocol Number (ICMP=1):
+1
+Q3. IP Header Analysis:
+Q4. Fragmentation Analysis:
+23:38:38.087118 IP (tos 0x0, ttl 1, id 41528, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33435: UDP, length 3472
+23:38:38.087153 IP (tos 0x0, ttl 1, id 41528, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.089436 IP (tos 0x0, ttl 1, id 41529, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33436: UDP, length 3472
+23:38:38.089457 IP (tos 0x0, ttl 1, id 41529, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.091091 IP (tos 0x0, ttl 1, id 41530, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33437: UDP, length 3472
+23:38:38.091112 IP (tos 0x0, ttl 1, id 41530, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.094065 IP (tos 0x0, ttl 2, id 41531, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33438: UDP, length 3472
+23:38:38.094082 IP (tos 0x0, ttl 2, id 41531, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.115259 IP (tos 0x0, ttl 2, id 41532, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33439: UDP, length 3472
+23:38:38.115289 IP (tos 0x0, ttl 2, id 41532, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.143094 IP (tos 0x0, ttl 2, id 41533, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33440: UDP, length 3472
+23:38:38.143129 IP (tos 0x0, ttl 2, id 41533, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.160915 IP (tos 0x0, ttl 3, id 41534, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33441: UDP, length 3472
+23:38:38.160953 IP (tos 0x0, ttl 3, id 41534, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.188290 IP (tos 0x0, ttl 3, id 41535, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33442: UDP, length 3472
+23:38:38.188325 IP (tos 0x0, ttl 3, id 41535, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.203939 IP (tos 0x0, ttl 3, id 41536, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33443: UDP, length 3472
+23:38:38.203967 IP (tos 0x0, ttl 3, id 41536, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.219849 IP (tos 0x0, ttl 4, id 41537, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33444: UDP, length 3472
+23:38:38.219898 IP (tos 0x0, ttl 4, id 41537, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.242297 IP (tos 0x0, ttl 4, id 41538, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33445: UDP, length 3472
+23:38:38.242335 IP (tos 0x0, ttl 4, id 41538, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.270101 IP (tos 0x0, ttl 4, id 41539, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33446: UDP, length 3472
+23:38:38.270144 IP (tos 0x0, ttl 4, id 41539, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.289018 IP (tos 0x0, ttl 5, id 41540, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33447: UDP, length 3472
+23:38:38.289067 IP (tos 0x0, ttl 5, id 41540, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.306602 IP (tos 0x0, ttl 5, id 41541, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33448: UDP, length 3472
+23:38:38.306632 IP (tos 0x0, ttl 5, id 41541, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.329935 IP (tos 0x0, ttl 5, id 41542, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33449: UDP, length 3472
+23:38:38.329966 IP (tos 0x0, ttl 5, id 41542, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.345640 IP (tos 0x0, ttl 6, id 41543, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33450: UDP, length 3472
+23:38:38.345667 IP (tos 0x0, ttl 6, id 41543, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.375599 IP (tos 0x0, ttl 6, id 41544, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33451: UDP, length 3472
+23:38:38.375628 IP (tos 0x0, ttl 6, id 41544, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.396829 IP (tos 0x0, ttl 6, id 41545, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33452: UDP, length 3472
+23:38:38.396871 IP (tos 0x0, ttl 6, id 41545, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.416592 IP (tos 0x0, ttl 7, id 41546, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33453: UDP, length 3472
+23:38:38.416628 IP (tos 0x0, ttl 7, id 41546, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:43.417766 IP (tos 0x0, ttl 7, id 41547, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33454: UDP, length 3472
+23:38:43.417796 IP (tos 0x0, ttl 7, id 41547, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:43.652663 IP (tos 0x0, ttl 255, id 8304, offset 0, flags [DF], proto UDP (17), length 103)
+    soundtouch-cactus.mdns > mdns.mcast.net.mdns: 0 [2q] A (QM)? Bose-SM2-d0b5c2f3adfc.local. SRV (QM)? Cactus._soundtouch._tcp.local. (75)
+23:38:43.652668 IP (tos 0x0, ttl 255, id 8305, offset 0, flags [DF], proto UDP (17), length 127)
+    soundtouch-cactus.mdns > mdns.mcast.net.mdns: 0*- [0q] 2/0/0 Cactus._soundtouch._tcp.local. (Cache flush) SRV Bose-SM2-d0b5c2f3adfc.local.:8090 0 0, Bose-SM2-d0b5c2f3adfc.local. (Cache flush) A 192.168.1.195 (99)
+23:38:48.420983 IP (tos 0x0, ttl 7, id 41548, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33455: UDP, length 3472
+23:38:48.421058 IP (tos 0x0, ttl 7, id 41548, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.421392 IP (tos 0x0, ttl 8, id 41549, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33456: UDP, length 3472
+23:38:53.421465 IP (tos 0x0, ttl 8, id 41549, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.470984 IP (tos 0x0, ttl 8, id 41550, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33457: UDP, length 3472
+23:38:53.471015 IP (tos 0x0, ttl 8, id 41550, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.523428 IP (tos 0x0, ttl 8, id 41551, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33458: UDP, length 3472
+23:38:53.523489 IP (tos 0x0, ttl 8, id 41551, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.577801 IP (tos 0x0, ttl 9, id 41552, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33459: UDP, length 3472
+23:38:53.577830 IP (tos 0x0, ttl 9, id 41552, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:58.580064 IP (tos 0x0, ttl 9, id 41553, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33460: UDP, length 3472
+23:38:58.580140 IP (tos 0x0, ttl 9, id 41553, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:03.583673 IP (tos 0x0, ttl 9, id 41554, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33461: UDP, length 3472
+23:39:03.583759 IP (tos 0x0, ttl 9, id 41554, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:07.614621 IP (tos 0x0, ttl 64, id 33364, offset 0, flags [DF], proto UDP (17), length 147)
+    192.168.1.4.9956 > 192.168.1.255.9956: UDP, length 119
+23:39:07.615178 IP (tos 0x0, ttl 64, id 33365, offset 0, flags [DF], proto UDP (17), length 173)
+    192.168.1.4.9956 > 192.168.1.255.9956: UDP, length 145
+23:39:08.588677 IP (tos 0x0, ttl 10, id 41555, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33462: UDP, length 3472
+23:39:08.588757 IP (tos 0x0, ttl 10, id 41555, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:08.610332 IP (tos 0x0, ttl 10, id 41556, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33463: UDP, length 3472
+23:39:08.610362 IP (tos 0x0, ttl 10, id 41556, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:08.628621 IP (tos 0x0, ttl 58, id 26945, offset 0, flags [DF], proto ICMP (1), length 168)
+    142.251.69.62 > 192.168.1.90: ICMP time exceeded in-transit, length 148
+	IP (tos 0x80, ttl 1, id 41556, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33463: UDP, length 3472
+	MPLS extension v2, checksum 0x5f5c (correct), length 12
+	  MPLS Stack Entry Object (1), Class-Type: 1, length 8
+	    label 485776, exp 4, [S], ttl 1
+23:39:08.629138 IP (tos 0x0, ttl 10, id 41557, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33464: UDP, length 3472
+23:39:08.629169 IP (tos 0x0, ttl 10, id 41557, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+Detailed packet analysis:
+23:38:38.087118 IP (tos 0x0, ttl 1, id 41528, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33435: UDP, length 3472
+23:38:38.087153 IP (tos 0x0, ttl 1, id 41528, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.087174 IP (tos 0x0, ttl 1, id 41528, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.088872 IP (tos 0xc0, ttl 64, id 23497, offset 0, flags [none], proto ICMP (1), length 576)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41528, offset 0, flags [none], proto UDP (17), length 3500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33435: UDP, length 3472
+23:38:38.089436 IP (tos 0x0, ttl 1, id 41529, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33436: UDP, length 3472
+23:38:38.089457 IP (tos 0x0, ttl 1, id 41529, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.089469 IP (tos 0x0, ttl 1, id 41529, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.091011 IP (tos 0xc0, ttl 64, id 23498, offset 0, flags [none], proto ICMP (1), length 576)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41529, offset 0, flags [none], proto UDP (17), length 3500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33436: UDP, length 3472
+23:38:38.091091 IP (tos 0x0, ttl 1, id 41530, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33437: UDP, length 3472
+23:38:38.091112 IP (tos 0x0, ttl 1, id 41530, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.091119 IP (tos 0x0, ttl 1, id 41530, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.094005 IP (tos 0xc0, ttl 64, id 23499, offset 0, flags [none], proto ICMP (1), length 576)
+    192.168.1.1 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41530, offset 0, flags [none], proto UDP (17), length 3500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33437: UDP, length 3472
+23:38:38.094065 IP (tos 0x0, ttl 2, id 41531, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33438: UDP, length 3472
+23:38:38.094082 IP (tos 0x0, ttl 2, id 41531, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.094091 IP (tos 0x0, ttl 2, id 41531, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.114780 IP (tos 0xc0, ttl 63, id 11882, offset 0, flags [none], proto ICMP (1), length 576)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41531, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33438: UDP, length 3472
+23:38:38.115259 IP (tos 0x0, ttl 2, id 41532, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33439: UDP, length 3472
+23:38:38.115289 IP (tos 0x0, ttl 2, id 41532, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.115300 IP (tos 0x0, ttl 2, id 41532, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.142985 IP (tos 0xc0, ttl 63, id 11883, offset 0, flags [none], proto ICMP (1), length 576)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41532, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33439: UDP, length 3472
+23:38:38.143094 IP (tos 0x0, ttl 2, id 41533, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33440: UDP, length 3472
+23:38:38.143129 IP (tos 0x0, ttl 2, id 41533, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.143142 IP (tos 0x0, ttl 2, id 41533, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.160800 IP (tos 0xc0, ttl 63, id 11884, offset 0, flags [none], proto ICMP (1), length 576)
+    syn-074-071-000-001.res.spectrum.com > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41533, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33440: UDP, length 3472
+23:38:38.160915 IP (tos 0x0, ttl 3, id 41534, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33441: UDP, length 3472
+23:38:38.160953 IP (tos 0x0, ttl 3, id 41534, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.160968 IP (tos 0x0, ttl 3, id 41534, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.187802 IP (tos 0x0, ttl 253, id 4343, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41534, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33441: UDP, length 3472
+23:38:38.188290 IP (tos 0x0, ttl 3, id 41535, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33442: UDP, length 3472
+23:38:38.188325 IP (tos 0x0, ttl 3, id 41535, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.188338 IP (tos 0x0, ttl 3, id 41535, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.203859 IP (tos 0x0, ttl 253, id 4344, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41535, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33442: UDP, length 3472
+23:38:38.203939 IP (tos 0x0, ttl 3, id 41536, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33443: UDP, length 3472
+23:38:38.203967 IP (tos 0x0, ttl 3, id 41536, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.203978 IP (tos 0x0, ttl 3, id 41536, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.219708 IP (tos 0x0, ttl 253, id 4345, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-61.nymanyfo02h.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41536, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33443: UDP, length 3472
+23:38:38.219849 IP (tos 0x0, ttl 4, id 41537, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33444: UDP, length 3472
+23:38:38.219898 IP (tos 0x0, ttl 4, id 41537, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.219910 IP (tos 0x0, ttl 4, id 41537, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.241741 IP (tos 0x0, ttl 252, id 8102, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41537, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33444: UDP, length 3472
+23:38:38.242297 IP (tos 0x0, ttl 4, id 41538, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33445: UDP, length 3472
+23:38:38.242335 IP (tos 0x0, ttl 4, id 41538, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.242348 IP (tos 0x0, ttl 4, id 41538, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.269982 IP (tos 0x0, ttl 252, id 8104, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41538, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33445: UDP, length 3472
+23:38:38.270101 IP (tos 0x0, ttl 4, id 41539, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33446: UDP, length 3472
+23:38:38.270144 IP (tos 0x0, ttl 4, id 41539, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.270155 IP (tos 0x0, ttl 4, id 41539, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.288881 IP (tos 0x0, ttl 252, id 8108, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-115.nyquny9101r.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41539, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33446: UDP, length 3472
+23:38:38.289018 IP (tos 0x0, ttl 5, id 41540, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33447: UDP, length 3472
+23:38:38.289067 IP (tos 0x0, ttl 5, id 41540, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.289079 IP (tos 0x0, ttl 5, id 41540, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.306081 IP (tos 0x0, ttl 251, id 18809, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-25-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41540, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33447: UDP, length 3472
+23:38:38.306602 IP (tos 0x0, ttl 5, id 41541, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33448: UDP, length 3472
+23:38:38.306632 IP (tos 0x0, ttl 5, id 41541, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.306643 IP (tos 0x0, ttl 5, id 41541, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.329806 IP (tos 0x0, ttl 251, id 18821, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-25-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41541, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33448: UDP, length 3472
+23:38:38.329935 IP (tos 0x0, ttl 5, id 41542, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33449: UDP, length 3472
+23:38:38.329966 IP (tos 0x0, ttl 5, id 41542, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.329981 IP (tos 0x0, ttl 5, id 41542, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.345551 IP (tos 0x0, ttl 251, id 18830, offset 0, flags [none], proto ICMP (1), length 96)
+    lag-25-10.nycmny837aw-bcr00.netops.charter.com > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x0, ttl 1, id 41542, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33449: UDP, length 3472
+23:38:38.345640 IP (tos 0x0, ttl 6, id 41543, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33450: UDP, length 3472
+23:38:38.345667 IP (tos 0x0, ttl 6, id 41543, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.345677 IP (tos 0x0, ttl 6, id 41543, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.375022 IP (tos 0x0, ttl 55, id 16424, offset 0, flags [none], proto ICMP (1), length 576)
+    209.85.172.44 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41543, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33450: UDP, length 3472
+23:38:38.375599 IP (tos 0x0, ttl 6, id 41544, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33451: UDP, length 3472
+23:38:38.375628 IP (tos 0x0, ttl 6, id 41544, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.375640 IP (tos 0x0, ttl 6, id 41544, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.396697 IP (tos 0x0, ttl 55, id 16426, offset 0, flags [none], proto ICMP (1), length 576)
+    209.85.172.44 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41544, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33451: UDP, length 3472
+23:38:38.396829 IP (tos 0x0, ttl 6, id 41545, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33452: UDP, length 3472
+23:38:38.396871 IP (tos 0x0, ttl 6, id 41545, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.396886 IP (tos 0x0, ttl 6, id 41545, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.416478 IP (tos 0x0, ttl 55, id 16428, offset 0, flags [none], proto ICMP (1), length 576)
+    209.85.172.44 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x0, ttl 1, id 41545, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33452: UDP, length 3472
+23:38:38.416592 IP (tos 0x0, ttl 7, id 41546, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33453: UDP, length 3472
+23:38:38.416628 IP (tos 0x0, ttl 7, id 41546, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:38.416692 IP (tos 0x0, ttl 7, id 41546, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:41.607981 IP6 (hlim 59, next-header UDP (17) payload length: 88) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:41.611524 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:43.417766 IP (tos 0x0, ttl 7, id 41547, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33454: UDP, length 3472
+23:38:43.417796 IP (tos 0x0, ttl 7, id 41547, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:43.417835 IP (tos 0x0, ttl 7, id 41547, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:43.652663 IP (tos 0x0, ttl 255, id 8304, offset 0, flags [DF], proto UDP (17), length 103)
+    soundtouch-cactus.mdns > mdns.mcast.net.mdns: [udp sum ok] 0 [2q] A (QM)? Bose-SM2-d0b5c2f3adfc.local. SRV (QM)? Cactus._soundtouch._tcp.local. (75)
+23:38:43.652668 IP (tos 0x0, ttl 255, id 8305, offset 0, flags [DF], proto UDP (17), length 127)
+    soundtouch-cactus.mdns > mdns.mcast.net.mdns: [udp sum ok] 0*- [0q] 2/0/0 Cactus._soundtouch._tcp.local. (Cache flush) [2m] SRV Bose-SM2-d0b5c2f3adfc.local.:8090 0 0, Bose-SM2-d0b5c2f3adfc.local. (Cache flush) [2m] A 192.168.1.195 (99)
+23:38:47.740197 IP6 (flowlabel 0x60c00, hlim 64, next-header UDP (17) payload length: 50) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.56493 > 2620:149:a41:20d::c.https: [udp sum ok] quic, protected
+23:38:48.420983 IP (tos 0x0, ttl 7, id 41548, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33455: UDP, length 3472
+23:38:48.421058 IP (tos 0x0, ttl 7, id 41548, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:48.421074 IP (tos 0x0, ttl 7, id 41548, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.421392 IP (tos 0x0, ttl 8, id 41549, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33456: UDP, length 3472
+23:38:53.421465 IP (tos 0x0, ttl 8, id 41549, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.421482 IP (tos 0x0, ttl 8, id 41549, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.440843 IP (tos 0x0, ttl 58, id 54615, offset 0, flags [none], proto ICMP (1), length 576)
+    142.251.53.150 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x80, ttl 1, id 41549, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33456: UDP, length 3472
+23:38:53.441615 IP6 (flowlabel 0x00d00, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.51512 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 4601+ PTR? 150.53.251.142.in-addr.arpa. (45)
+23:38:53.441796 IP6 (flowlabel 0x70d00, hlim 64, next-header UDP (17) payload length: 44) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.53212 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 41550+ Type64? _dns.resolver.arpa. (36)
+23:38:53.463443 IP6 (hlim 57, next-header UDP (17) payload length: 120) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.53212: [udp sum ok] 41550 NXDomain q: Type64? _dns.resolver.arpa. 0/1/0 ns: arpa. [30s] SOA a.root-servers.net. nstld.verisign-grs.com. 2024112401 1800 900 604800 86400 (112)
+23:38:53.470502 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.51512: [udp sum ok] 4601 NXDomain q: PTR? 150.53.251.142.in-addr.arpa. 0/1/0 ns: 251.142.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:38:53.470984 IP (tos 0x0, ttl 8, id 41550, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33457: UDP, length 3472
+23:38:53.471015 IP (tos 0x0, ttl 8, id 41550, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.471028 IP (tos 0x0, ttl 8, id 41550, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.490356 IP (tos 0x0, ttl 56, id 42157, offset 0, flags [none], proto ICMP (1), length 576)
+    142.251.65.98 > 192.168.1.90: ICMP time exceeded in-transit, length 556
+	IP (tos 0x80, ttl 1, id 41550, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33457: UDP, length 3472
+23:38:53.491345 IP6 (flowlabel 0x40800, hlim 64, next-header UDP (17) payload length: 52) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.64034 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 54154+ PTR? 98.65.251.142.in-addr.arpa. (44)
+23:38:53.522495 IP6 (hlim 57, next-header UDP (17) payload length: 112) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.64034: [udp sum ok] 54154 NXDomain q: PTR? 98.65.251.142.in-addr.arpa. 0/1/0 ns: 251.142.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (104)
+23:38:53.523428 IP (tos 0x0, ttl 8, id 41551, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33458: UDP, length 3472
+23:38:53.523489 IP (tos 0x0, ttl 8, id 41551, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.523507 IP (tos 0x0, ttl 8, id 41551, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.547189 IP (tos 0x0, ttl 247, id 13178, offset 0, flags [none], proto ICMP (1), length 96)
+    142.251.60.178 > 192.168.1.90: ICMP time exceeded in-transit, length 76
+	IP (tos 0x80, ttl 1, id 41551, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33458: UDP, length 3472
+23:38:53.547783 IP6 (flowlabel 0x70300, hlim 64, next-header UDP (17) payload length: 53) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54729 > dns-cac-lb-02.rr.com.domain: [udp sum ok] 58837+ PTR? 178.60.251.142.in-addr.arpa. (45)
+23:38:53.577374 IP6 (hlim 57, next-header UDP (17) payload length: 113) dns-cac-lb-02.rr.com.domain > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54729: [udp sum ok] 58837 NXDomain q: PTR? 178.60.251.142.in-addr.arpa. 0/1/0 ns: 251.142.in-addr.arpa. [30s] SOA ns1.google.com. dns-admin.google.com. 698728253 900 900 1800 60 (105)
+23:38:53.577801 IP (tos 0x0, ttl 9, id 41552, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33459: UDP, length 3472
+23:38:53.577830 IP (tos 0x0, ttl 9, id 41552, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:53.577840 IP (tos 0x0, ttl 9, id 41552, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:56.608427 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 37) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:56.615863 IP6 (hlim 59, next-header UDP (17) payload length: 88) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:56.619218 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:56.633242 IP6 (hlim 59, next-header UDP (17) payload length: 34) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:57.805594 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, initial, dcid a0378346a6d78e90, token 00413521330149bee80a9b47f7f25f8e013832e230b72200bc3a3450528e5912e95d514eb7d5661ccfbc767f41b8250f1711b4b3360584c45e0a52f2192d2f457c95b45fa28a, length 1141
+23:38:57.805678 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, initial, dcid a0378346a6d78e90, token 00413521330149bee80a9b47f7f25f8e013832e230b72200bc3a3450528e5912e95d514eb7d5661ccfbc767f41b8250f1711b4b3360584c45e0a52f2192d2f457c95b45fa28a, length 1141
+23:38:57.805843 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 89) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, 0-rtt, dcid a0378346a6d78e90, length 64
+23:38:57.818122 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 1231) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:57.818152 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 952) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:57.818285 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 1231) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:57.818302 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 812) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:57.827051 IP6 (hlim 59, next-header UDP (17) payload length: 48) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, initial, scid e0378346a6d78e90, length 22
+23:38:57.828709 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, initial, scid e0378346a6d78e90, length 1212
+23:38:57.833357 IP6 (hlim 59, next-header UDP (17) payload length: 1238) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, initial, scid e0378346a6d78e90, length 1212
+23:38:57.833606 IP6 (hlim 59, next-header UDP (17) payload length: 304) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, handshake, scid e0378346a6d78e90, length 214, protected
+23:38:57.833767 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 86) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, handshake, dcid e0378346a6d78e90, length 61
+23:38:57.833823 IP6 (hlim 59, next-header UDP (17) payload length: 638) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.833972 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1234) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.833991 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.834030 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 769) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.834046 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 473) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.834054 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 213) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.834227 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 692) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.834339 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1234) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.834384 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1103) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.834522 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1234) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.834535 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1078) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.838941 IP6 (hlim 59, next-header UDP (17) payload length: 43) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:57.842340 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:57.850090 IP6 (hlim 59, next-header UDP (17) payload length: 135) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.850712 IP6 (hlim 59, next-header UDP (17) payload length: 33) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.850714 IP6 (hlim 59, next-header UDP (17) payload length: 33) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.850714 IP6 (hlim 59, next-header UDP (17) payload length: 33) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.850715 IP6 (hlim 59, next-header UDP (17) payload length: 37) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.850716 IP6 (hlim 59, next-header UDP (17) payload length: 37) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.850851 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 40) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.851248 IP6 (hlim 59, next-header UDP (17) payload length: 37) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.851329 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.853933 IP6 (hlim 59, next-header UDP (17) payload length: 37) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.855217 IP6 (hlim 59, next-header UDP (17) payload length: 1065) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:57.855228 IP6 (hlim 59, next-header UDP (17) payload length: 150) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:57.856977 IP6 (hlim 59, next-header UDP (17) payload length: 1011) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:57.857999 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 51) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:57.859187 IP6 (hlim 59, next-header UDP (17) payload length: 66) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:57.862497 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:38:57.872238 IP6 (hlim 59, next-header UDP (17) payload length: 855) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.872348 IP6 (hlim 59, next-header UDP (17) payload length: 252) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.872470 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.872617 IP6 (hlim 59, next-header UDP (17) payload length: 637) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.872619 IP6 (hlim 59, next-header UDP (17) payload length: 261) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.872619 IP6 (hlim 59, next-header UDP (17) payload length: 681) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.872620 IP6 (hlim 59, next-header UDP (17) payload length: 147) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.872736 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.872835 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.880532 IP6 (hlim 59, next-header UDP (17) payload length: 34) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:38:57.892220 IP6 (hlim 59, next-header UDP (17) payload length: 31) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.896487 IP6 (hlim 59, next-header UDP (17) payload length: 640) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.896780 IP6 (hlim 59, next-header UDP (17) payload length: 176) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:57.896855 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.927087 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 40) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:38:57.938166 IP6 (hlim 59, next-header UDP (17) payload length: 32) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:38:58.580064 IP (tos 0x0, ttl 9, id 41553, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33460: UDP, length 3472
+23:38:58.580140 IP (tos 0x0, ttl 9, id 41553, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:38:58.580157 IP (tos 0x0, ttl 9, id 41553, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:01.788324 IP6 (hlim 59, next-header UDP (17) payload length: 89) lga25s78-in-x0a.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336: [udp sum ok] quic, protected
+23:39:01.791227 IP6 (flowlabel 0x70c00, hlim 64, next-header UDP (17) payload length: 41) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.54336 > lga25s78-in-x0a.1e100.net.https: [udp sum ok] quic, protected
+23:39:03.583673 IP (tos 0x0, ttl 9, id 41554, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33461: UDP, length 3472
+23:39:03.583759 IP (tos 0x0, ttl 9, id 41554, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:03.583790 IP (tos 0x0, ttl 9, id 41554, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:04.773708 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, initial, dcid 1a1d6151b99eb653, token 007d5e2c387ca358bf6fa8f19870d42c492a8c49b92ee6d0536cb4ae1b7ce847ccb475fab09a97a49204564710f75501f6e1ca3d15917d4276c6183bf442698cc7347e49feddd8, length 1140
+23:39:04.773731 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, initial, dcid 1a1d6151b99eb653, token 007d5e2c387ca358bf6fa8f19870d42c492a8c49b92ee6d0536cb4ae1b7ce847ccb475fab09a97a49204564710f75501f6e1ca3d15917d4276c6183bf442698cc7347e49feddd8, length 1140
+23:39:04.773755 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, initial, dcid 1a1d6151b99eb653, token 007d5e2c387ca358bf6fa8f19870d42c492a8c49b92ee6d0536cb4ae1b7ce847ccb475fab09a97a49204564710f75501f6e1ca3d15917d4276c6183bf442698cc7347e49feddd8, length 1140
+23:39:04.773893 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 89) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, 0-rtt, dcid 1a1d6151b99eb653, length 64
+23:39:04.774229 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 859) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, 0-rtt, dcid 1a1d6151b99eb653, length 834
+23:39:04.774309 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 131) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, 0-rtt, dcid 1a1d6151b99eb653, length 106
+23:39:04.797353 IP6 (hlim 58, next-header UDP (17) payload length: 48) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, initial, scid fa1d6151b99eb653, length 22
+23:39:04.797731 IP6 (hlim 58, next-header UDP (17) payload length: 48) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, initial, scid fa1d6151b99eb653, length 22
+23:39:04.798213 IP6 (hlim 58, next-header UDP (17) payload length: 1238) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, initial, scid fa1d6151b99eb653, length 1212
+23:39:04.798691 IP6 (hlim 58, next-header UDP (17) payload length: 1238) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, initial, scid fa1d6151b99eb653, length 1212
+23:39:04.805559 IP6 (hlim 58, next-header UDP (17) payload length: 1238) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, initial, scid fa1d6151b99eb653, length 1212
+23:39:04.806965 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, initial, dcid fa1d6151b99eb653, token 007d5e2c387ca358bf6fa8f19870d42c492a8c49b92ee6d0536cb4ae1b7ce847ccb475fab09a97a49204564710f75501f6e1ca3d15917d4276c6183bf442698cc7347e49feddd8, length 1140
+23:39:04.807127 IP6 (hlim 58, next-header UDP (17) payload length: 304) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, handshake, scid fa1d6151b99eb653, length 214, protected
+23:39:04.807130 IP6 (hlim 58, next-header UDP (17) payload length: 942) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.807131 IP6 (hlim 58, next-header UDP (17) payload length: 41) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.807131 IP6 (hlim 58, next-header UDP (17) payload length: 32) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.807132 IP6 (hlim 58, next-header UDP (17) payload length: 31) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.807456 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 86) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, handshake, dcid fa1d6151b99eb653, length 61
+23:39:04.807566 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid fa1d6151b99eb653
+23:39:04.807735 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid fa1d6151b99eb653
+23:39:04.820803 IP6 (hlim 58, next-header UDP (17) payload length: 540) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.820839 IP6 (hlim 58, next-header UDP (17) payload length: 31) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.821094 IP6 (hlim 58, next-header UDP (17) payload length: 94) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.821191 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid fa1d6151b99eb653
+23:39:04.821407 IP6 (hlim 58, next-header UDP (17) payload length: 30) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.821809 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid fa1d6151b99eb653
+23:39:04.825969 IP6 (hlim 58, next-header UDP (17) payload length: 128) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.830795 IP6 (hlim 58, next-header UDP (17) payload length: 33) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.830799 IP6 (hlim 58, next-header UDP (17) payload length: 33) lga34s35-in-x03.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138: [udp sum ok] quic, protected
+23:39:04.854037 IP6 (flowlabel 0xa0f00, hlim 64, next-header UDP (17) payload length: 40) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.63138 > lga34s35-in-x03.1e100.net.https: [udp sum ok] quic, protected, dcid fa1d6151b99eb653
+23:39:07.614621 IP (tos 0x0, ttl 64, id 33364, offset 0, flags [DF], proto UDP (17), length 147)
+    192.168.1.4.9956 > 192.168.1.255.9956: [udp sum ok] UDP, length 119
+23:39:07.615178 IP (tos 0x0, ttl 64, id 33365, offset 0, flags [DF], proto UDP (17), length 173)
+    192.168.1.4.9956 > 192.168.1.255.9956: [udp sum ok] UDP, length 145
+23:39:08.333628 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e11e8cdca680ae] (73)
+23:39:08.333639 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e11e8cdca680ae] (73)
+23:39:08.333647 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e11e8cdca680ae] (73)
+23:39:08.588677 IP (tos 0x0, ttl 10, id 41555, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33462: UDP, length 3472
+23:39:08.588757 IP (tos 0x0, ttl 10, id 41555, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:08.588775 IP (tos 0x0, ttl 10, id 41555, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:08.609555 IP (tos 0x0, ttl 58, id 22899, offset 0, flags [none], proto ICMP (1), length 168)
+    216.239.62.196 > 192.168.1.90: ICMP time exceeded in-transit, length 148
+	IP (tos 0x80, ttl 1, id 41555, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33462: UDP, length 3472
+	MPLS extension v2, checksum 0x2eda (correct), length 12
+	  MPLS Stack Entry Object (1), Class-Type: 1, length 8
+	    label 29114, exp 4, [S], ttl 1
+23:39:08.610332 IP (tos 0x0, ttl 10, id 41556, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33463: UDP, length 3472
+23:39:08.610362 IP (tos 0x0, ttl 10, id 41556, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:08.610375 IP (tos 0x0, ttl 10, id 41556, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:08.628621 IP (tos 0x0, ttl 58, id 26945, offset 0, flags [DF], proto ICMP (1), length 168)
+    142.251.69.62 > 192.168.1.90: ICMP time exceeded in-transit, length 148
+	IP (tos 0x80, ttl 1, id 41556, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33463: UDP, length 3472
+	MPLS extension v2, checksum 0x5f5c (correct), length 12
+	  MPLS Stack Entry Object (1), Class-Type: 1, length 8
+	    label 485776, exp 4, [S], ttl 1
+23:39:08.629138 IP (tos 0x0, ttl 10, id 41557, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33464: UDP, length 3472
+23:39:08.629169 IP (tos 0x0, ttl 10, id 41557, offset 1480, flags [+], proto UDP (17), length 1500)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:08.629181 IP (tos 0x0, ttl 10, id 41557, offset 2960, flags [none], proto UDP (17), length 540)
+    192.168.1.90 > lga25s71-in-f14.1e100.net: udp
+23:39:08.668314 IP (tos 0x0, ttl 117, id 0, offset 0, flags [none], proto ICMP (1), length 56)
+    lga25s71-in-f14.1e100.net > 192.168.1.90: ICMP lga25s71-in-f14.1e100.net udp port 33464 unreachable, length 36
+	IP (tos 0x80, ttl 1, id 41557, offset 0, flags [+], proto UDP (17), length 1500)
+    192.168.1.90.41527 > lga25s71-in-f14.1e100.net.33464: UDP, length 3472
+23:39:08.708196 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1234) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.708239 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.708252 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 920) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.708476 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1234) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.708493 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 1238) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.708504 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 670) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.724698 IP6 (hlim 59, next-header UDP (17) payload length: 35) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:39:08.752242 IP6 (hlim 59, next-header UDP (17) payload length: 35) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:39:08.752246 IP6 (hlim 59, next-header UDP (17) payload length: 31) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:39:08.752247 IP6 (hlim 59, next-header UDP (17) payload length: 683) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:39:08.752249 IP6 (hlim 59, next-header UDP (17) payload length: 105) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:39:08.752551 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 39) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.752843 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.758799 IP6 (hlim 59, next-header UDP (17) payload length: 637) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:39:08.758976 IP6 (hlim 59, next-header UDP (17) payload length: 37) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:39:08.759188 IP6 (flowlabel 0x60400, hlim 64, next-header UDP (17) payload length: 43) syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794 > lga34s33-in-x0e.1e100.net.https: [udp sum ok] quic, protected, dcid e0378346a6d78e90
+23:39:08.776478 IP6 (hlim 59, next-header UDP (17) payload length: 31) lga34s33-in-x0e.1e100.net.https > syn-2603-7000-9501-1bc8-b594-02d7-de6c-260f.res6.spectrum.com.55794: [udp sum ok] quic, protected
+23:39:09.335662 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e11e8cdca680ae] (73)
+23:39:09.335681 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e11e8cdca680ae] (73)
+23:39:09.335759 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 81) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 [1au] PTR (QM)? _companion-link._tcp.local. ar: . OPT UDPsize=1440 [Opt4 00a9aa665a4b76e11e8cdca680ae] (73)
+23:39:12.343378 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
+23:39:12.343398 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
+23:39:12.343474 IP6 (flowlabel 0x20400, hlim 255, next-header UDP (17) payload length: 52) fe80::1c8c:dcff:fea6:80ae.mdns > ff02::fb.mdns: [udp sum ok] 0 PTR (QM)? _companion-link._tcp.local. (44)
