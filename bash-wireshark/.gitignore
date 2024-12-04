@@ -1,0 +1,9 @@
+   # Ignore all files by default
+   *
+
+   # Allow .sh and .py files
+   !*.sh
+   !*.py
+
+   # Allow .gitignore itself
+   !.gitignore

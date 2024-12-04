@@ -1,0 +1,15 @@
+PING www.ust.hk (143.89.12.134): 56 data bytes
+64 bytes from 143.89.12.134: icmp_seq=0 ttl=48 time=230.983 ms
+64 bytes from 143.89.12.134: icmp_seq=1 ttl=48 time=264.906 ms
+64 bytes from 143.89.12.134: icmp_seq=2 ttl=48 time=226.993 ms
+64 bytes from 143.89.12.134: icmp_seq=3 ttl=48 time=232.636 ms
+64 bytes from 143.89.12.134: icmp_seq=4 ttl=48 time=236.603 ms
+64 bytes from 143.89.12.134: icmp_seq=5 ttl=48 time=232.006 ms
+64 bytes from 143.89.12.134: icmp_seq=6 ttl=48 time=265.358 ms
+64 bytes from 143.89.12.134: icmp_seq=7 ttl=48 time=287.187 ms
+64 bytes from 143.89.12.134: icmp_seq=8 ttl=48 time=230.550 ms
+64 bytes from 143.89.12.134: icmp_seq=9 ttl=48 time=258.270 ms
+
+--- www.ust.hk ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 226.993/246.549/287.187/19.658 ms
